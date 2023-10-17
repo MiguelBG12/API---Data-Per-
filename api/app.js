@@ -26,16 +26,17 @@ connection.query(query, (err, results) => {
     }
 });
 
-const container_dato = document.querySelector("#dato");
-const container_grafico = document.querySelector("#grafico");
+document.addEventListener('DOMContentLoaded', function() {
+    const container_dato = document.querySelector("#dato");
+    const container_grafico = document.querySelector("#grafico");
 
-const formulario = `
-<h1>Dato</h1>
-`;
-const grafico = `
-<h1>Grafico</h1>
-`;
+    const formulario = `
+    <h1>Dato</h1>
+    `;
+    const grafico = `
+    <h1>Grafico</h1>
+    `;
 
-container_dato.innerHTML = formulario;
-container_grafico.innerHTML = grafico;
-
+    container_dato.innerHTML = formulario;
+    container_grafico.innerHTML = grafico;
+});
