@@ -1,3 +1,4 @@
+/*
 const mysql = require('db/mysql');
 const connection = mysql.createConnection({
     host: 'localhost',  // Cambia el host si la base de datos está en otro servidor
@@ -40,3 +41,5 @@ document.addEventListener('DOMContentLoaded', function() {
     container_dato.innerHTML = formulario;
     container_grafico.innerHTML = grafico;
 });
+
+*/
