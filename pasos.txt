@@ -1,0 +1,4 @@
+1. Crear base de datos
+2. npm init -y / (ejecutar en consola para generar el archivo package.json)
+3. npm install mysql / (Instala la libreria mysql)
+4. npm install mysql2 / (Instala la libreria mysql2)
